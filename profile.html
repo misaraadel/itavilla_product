@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="" dir="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <meta name="author" content="Wafaa Hegazy">
+    <!--Page Name-->
+    <title>Itavilla</title>
+    <!--Page Icon-->
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon"/>
+    <!--Bootstrap with RTL-->
+    <!-- <link rel="stylesheet" href="css/lib/bootstrap.rtl.css"> -->
+    <!--Bootstrap with LTR-->
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <!--Css Files & Libraries-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lib/all.min.css">
+    <link rel="stylesheet" href="css//lib/animate.css">
+    <link rel="stylesheet" href="css/lib/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/lib/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/lib/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!--With LTR -->
+    <!-- <link rel="stylesheet" href="css/style-ar.css"> -->
+</head>
+<body>
+    <!--Start navs-container -->
+    <div class="navs-container">
+        <!--Start top-nav-->
+        <div class="top-nav">
+            <div class="container">
+                <div class="inner">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-6">
+                            <div class="nav-links inFlex">
+                                <a href="#" class="icon-outer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="icon-outer"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="icon-outer"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 order_md_3">
+                            <div class="d-flex align-items-center align-content-center justify-content-between">
+                                <a class="navbar-brand d-block m-auto" href="index.html">
+                                    <img src="images/logo.png" alt="" class="logo"/>
+                                </a>
+                                
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <div class="nav-links justify-content-end inFlex">
+                                <a href="cart.html" class="icon-outer"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <div class="dropdown">
+                                    <button class="icon-outer dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-user"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                      <li><a class="dropdown-item" href="register.html">Register</a></li>
+                                      <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                                    </ul>
+                                </div>
+                                <a href="#" id="searchToggler" class="icon-outer"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Start main-nav-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">our products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">our blog</a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <button class="butn primary_border_butn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Language
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">العربيه</a></li>
+                          <li><a class="dropdown-item" href="#">English</a></li>
+                          <li><a class="dropdown-item" href="#">Français</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Start search-wrapper -->
+        <div class="search-wrapper">
+            <div class="search-inner">
+                <div class="container">
+                    <div class="in-flex mb-3">
+                        <h6 class="title text-white">WHAT ARE YOU LOOKING FOR?</h6>
+                        <button class="close-butn" id="dismissSearch"><i class="fas fa-times"></i></button>
+                    </div>
+                    <form>
+                        <div class="form-group form-floating mb-0">
+                            <input type="email" class="form-control" id="floatingInput" placeholder=" ">
+                            <label for="floatingInput">Search </label>
+                            <button class="submit-butn"><i class="fa-solid fa-magnifying-glass icon"></i></button>
+                          </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </div>
+    
+    <main>
+         <!-- Start profile-pg -->
+         <section class="profile-pg section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="prof-side">
+                            <div class="prof-data wrapper">
+                                <div class="img-box">
+                                    <img src="images/avatar-1.png" alt="" class="sec-img"/>
+                                </div>
+                                <h5 class="title text-center mt-4"><b>John Doe</b></h5>
+                            </div>
+                            <div class="links-data wrapper">
+                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <button class="nav-link active" id="v-pills-tab1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tab1" type="button" role="tab" aria-controls="v-pills-tab1" aria-selected="true"> Information </button>
+                                    <button class="nav-link" id="v-pills-tab2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tab2" type="button" role="tab" aria-controls="v-pills-tab2" aria-selected="false">Addresses</button>
+                                    <button class="nav-link" id="v-pills-tab3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tab3" type="button" role="tab" aria-controls="v-pills-tab3" aria-selected="false"> orders</button>
+                                    <button class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#logoutModal" >   Logout </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-tab1" role="tabpanel" aria-labelledby="v-pills-tab1-tab">
+                                <div class="tab prof-tab">
+                                    <h3 class="tab_title text-center mb-5"><b>Profile information</b></h3>
+                                    <div class="row col-md-9 m-auto">
+                                        <div class="col-md-12">
+                                            <div class="data-group">
+                                                <p class="label mb-2">Full Name</p>
+                                                <p class="data">Mahdy Ali</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="data-group">
+                                                <p class="label mb-2">E-mail </p>
+                                                <p class="data">Mahdy.Al@mail.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="data-group">
+                                                <p class="label mb-2"> Phone Number   </p>
+                                                <p class="data">+966-422358456263</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mt-4">
+                                            <button class="butn primary_butn d-block m-auto" data-bs-toggle="modal" data-bs-target="#editProfModal"><i class="fa-solid fa-pen-to-square"></i>  Edit Profile  </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-tab2" role="tabpanel" aria-labelledby="v-pills-tab2-tab">
+                                <div class="tab loc-tab">
+                                    <h3 class="tab_title text-center mb-5"><b>My Addresses</b></h3>
+                                    <div class="loc_card col-md-10">
+                                        <div class="heading in-flex">
+                                            <div class="inFlex">
+                                                <span class="icon-outer">
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                </span>
+                                                <h5 class="title mb-0"><b>My Address  </b></h5>
+                                            </div>
+                                            <div class="butns inFlex justify-content-end">
+                                                <button class="card_butn edit" data-bs-toggle="modal" data-bs-target="#editLocModal">Edit</button>
+                                                <button class="card_butn delete">Delete</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-body inFlex">
+                                            <span class="icon-outer">
+                                                <img src="images/icons/home.png" alt="" class="icon"/>
+                                            </span>
+                                            <div class="content">
+                                                <h6 class="country"> City Name</h6>
+                                                <p class="color-gray2 mb-0">Here user will write address details</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="loc_card col-md-10">
+                                        <div class="heading in-flex">
+                                            <div class="inFlex">
+                                                <span class="icon-outer">
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                </span>
+                                                <h5 class="title mb-0"><b>My Address  </b></h5>
+                                            </div>
+                                            <div class="butns inFlex justify-content-end">
+                                                <button class="card_butn edit" data-bs-toggle="modal" data-bs-target="#editLocModal">Edit</button>
+                                                <button class="card_butn delete">Delete</button>
+                                            </div>
+                                        </div>
+                                        <div class="card-body inFlex">
+                                            <span class="icon-outer">
+                                                <img src="images/icons/home.png" alt="" class="icon"/>
+                                            </span>
+                                            <div class="content">
+                                                <h6 class="country"> City Name</h6>
+                                                <p class="color-gray2 mb-0">Here user will write address details</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mt-4">
+                                        <button class="butn primary_butn d-block m-auto" data-bs-toggle="modal" data-bs-target="#addLocModal"><i class="fa-solid fa-circle-plus"></i> Add new address</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-tab3" role="tabpanel" aria-labelledby="v-pills-tab3-tab">
+                                <div class="tab orders-tab">
+                                    <h3 class="tab_title text-center mb-5"><b>   My Orders </b></h3>
+                                    <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-pending-tab" data-bs-toggle="pill" data-bs-target="#pills-pending" type="button" role="tab" aria-controls="pills-pending" aria-selected="false"> Pending  </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-prepare-tab" data-bs-toggle="pill" data-bs-target="#pills-prepare" type="button" role="tab" aria-controls="pills-prepare" aria-selected="false">In Progress</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-shipping-tab" data-bs-toggle="pill" data-bs-target="#pills-shipping" type="button" role="tab" aria-controls="pills-shipping" aria-selected="false">Shipped</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-delivered-tab" data-bs-toggle="pill" data-bs-target="#pills-delivered" type="button" role="tab" aria-controls="pills-delivered" aria-selected="false">delivered</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-canceled-tab" data-bs-toggle="pill" data-bs-target="#pills-canceled" type="button" role="tab" aria-controls="pills-canceled" aria-selected="false">Canceled</button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" colspan="2"> Product</th>
+                                                            <th>Category</th>
+                                                            <th>Size</th>
+                                                            <th>Price</th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-pending" role="tabpanel" aria-labelledby="pills-pending-tab">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" colspan="2"> Product</th>
+                                                            <th>Category</th>
+                                                            <th>Size</th>
+                                                            <th>Price</th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-prepare" role="tabpanel" aria-labelledby="pills-prepare-tab">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" colspan="2"> Product</th>
+                                                            <th>Category</th>
+                                                            <th>Size</th>
+                                                            <th>Price</th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-shipping" role="tabpanel" aria-labelledby="pills-shipping-tab">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" colspan="2"> Product</th>
+                                                            <th>Category</th>
+                                                            <th>Size</th>
+                                                            <th>Price</th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-delivered" role="tabpanel" aria-labelledby="pills-delivered-tab">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" colspan="2"> Product</th>
+                                                            <th>Category</th>
+                                                            <th>Size</th>
+                                                            <th>Price</th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-canceled" role="tabpanel" aria-labelledby="pills-canceled-tab">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="text-center" colspan="2"> Product</th>
+                                                            <th>Category</th>
+                                                            <th>Size</th>
+                                                            <th>Price</th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-1.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/header-2.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="images/categ-3.jpg" alt="" class="prod_img"/>
+                                                            </td>
+                                                            <td class="text-start"><b> Product name here  </b></td>
+                                                            <td> Category name  </td>
+                                                            <td>20*30*15</td>
+                                                      
+                                                            <td><b>39.98</b> <small>SR</small></td>
+                                                            <td>
+                                                                <a href="order_det.html"><i class="fa-solid fa-circle-exclamation"></i></a>
+                                                            </td>
+                                                 
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- Modal -->
+        <div class="modal editProfModal fade" id="editProfModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Edit Profile</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row col-md-10 m-auto">
+                                <div class="col-md-12">
+                                    <div class="profile-avatar mb-3" id="imagePreview" style="background-image: url('images/avatar-4.png');">
+                                        <input type="file" class="custom-file-input" id="imageUpload" required="" capture="">
+                                        <button><i class="far fa-edit"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput" placeholder="Name">
+                                        <label for="floatingInput">Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput" placeholder="E-mail">
+                                        <label for="floatingInput">E-mail</label>
+                                        </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingInput"  placeholder="Phone Number ">
+                                        <label for="floatingInput">Phone Number   </label>
+                                        </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group form-floating show_hide_password mb-4">
+                                        <input type="password" class="form-control shadow_input"  placeholder="Password">
+                                        <label for="floatingInput">Password  </label>
+                                        <i class="show_pass far fa-eye-slash"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group form-floating show_hide_password mb-4 ">
+                                        <input type="password" class="form-control shadow_input" placeholder="Re-password">
+                                        <label for="floatingInput">Re-password</label>
+                                        <i class="show_pass far fa-eye-slash"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-5">
+                                <button type="button" class="butn btn-secondary mx-1" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="butn primary_butn mx-1">Save Changes  </button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="modal editProfModal fade" id="addLocModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">  Add new address </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row col-md-10 m-auto">
+                                <div class="col-md-12">
+                                    <div class="form-group form-floating mb-3">
+                                        <select class="form-control form-select">
+                                            <option>city name</option>
+                                        </select>
+                                        <label for="floatingInput">City</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput" placeholder="Location details">
+                                        <label for="floatingInput">Address details</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-4">
+                                    <iframe width="100%" height="290" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-5">
+                                <button type="button" class="butn btn-secondary mx-1" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="butn primary_butn mx-1">Add Address  </button>
+                            </div>
+                        </form>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="modal editProfModal fade" id="editLocModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">  Edit your address </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row col-md-10 m-auto">
+                                <div class="col-md-12">
+                                    <div class="form-group form-floating mb-3">
+                                        <select class="form-control form-select">
+                                            <option>city name</option>
+                                        </select>
+                                        <label for="floatingInput">City</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput" placeholder="Location details">
+                                        <label for="floatingInput">Address details</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-4">
+                                    <iframe width="100%" height="290" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-5">
+                                <button type="button" class="butn btn-secondary mx-1" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="butn primary_butn mx-1">Add Address  </button>
+                            </div>
+                        </form>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="modal logoutModal fade" id="logoutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-body">
+                        <img src="images/icons/logout.png" alt="" class="img"/>
+                        <h3 class="title color-secondary text-center"><b>Do you want to logout?</b></h3>
+                        <div class="d-flex justify-content-center mt-5">
+                            <button type="button" class="butn btn-secondary mx-1" data-bs-dismiss="modal">No</button>
+                            <button type="button" class="butn primary_butn mx-1">Yes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Start footer -->
+    <footer class="footer section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-3 col-md-6">
+                    <div class="content wow fadeInUp">
+                        <img src="images/logo.png" alt="" class="logo mb-4"/>
+                        <p class="det color-gray">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="content wow fadeInUp">
+                        <h5 class="title text-white mb-5"><b class="font_oswald">Links</b></h5>
+                        <div class="links">
+                            <a href="legal.html">Legal notice</a>
+                            <a href="cookies.html">Cookies policy</a>
+                        </div>
+
+                        <ul class="images">
+                            <li>
+                                <img src="images/pay/master.png" alt="">
+                            </li>
+
+                            <li>
+                                <img src="images/pay/visa.png" alt="">
+                            </li>
+
+                            <li>
+                                <img src="images/pay/cash.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="content wow fadeInUp">
+                        <h5 class="title text-white mb-5"><b class="font_oswald">important link</b></h5>
+                        <div class="links">
+                            <a href="terms.html">Terms & Conditions</a>
+                            <a href="terms.html">Return Policy</a>
+                            <a href="policy.html">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="content wow fadeInUp">
+                        <h5 class="title text-white mb-5"><b class="font_oswald">Subscribe to the newsletter</b></h5>
+                        <p class="det color-gray">Subscribe to receive all new and our offers</p>
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Email "/>
+                                <button class="butn primary_border_butn ">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p class="foot_p color-gray mt-4 text-center mb-0"> Copyright © Itavilla. All rights reserved.</p>
+        </div>
+    </footer>
+    <!--Scroll to top button-->
+    <div class="progress-wrap ">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 220.587;"></path></svg>
+    </div>
+    <!--Js Files & Libraries-->
+    <script src="js/lib/jquery4.js"></script>
+    <script src="js/lib/popper.js"></script>
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+    <script src="js/lib/jquery.fancybox.js"></script>
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/wow.min.js"></script>
+    <script src="js/lib/back-to-top.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

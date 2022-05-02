@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="" dir="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <meta name="author" content="Wafaa Hegazy">
+    <!--Page Name-->
+    <title>Itavilla</title>
+    <!--Page Icon-->
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon"/>
+    <!--Bootstrap with RTL-->
+    <!-- <link rel="stylesheet" href="css/lib/bootstrap.rtl.css"> -->
+    <!--Bootstrap with LTR-->
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <!--Css Files & Libraries-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lib/all.min.css">
+    <link rel="stylesheet" href="css//lib/animate.css">
+    <link rel="stylesheet" href="css/lib/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/lib/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/lib/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!--With LTR -->
+    <!-- <link rel="stylesheet" href="css/style-ar.css"> -->
+</head>
+<body>
+    <!--Start navs-container -->
+    <div class="navs-container">
+        <!--Start top-nav-->
+        <div class="top-nav">
+            <div class="container">
+                <div class="inner">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-6">
+                            <div class="nav-links inFlex">
+                                <a href="#" class="icon-outer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="icon-outer"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="icon-outer"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 order_md_3">
+                            <div class="d-flex align-items-center align-content-center justify-content-between">
+                                <a class="navbar-brand d-block m-auto" href="index.html">
+                                    <img src="images/logo.png" alt="" class="logo"/>
+                                </a>
+                                
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <div class="nav-links justify-content-end inFlex">
+                                <a href="cart.html" class="icon-outer"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <div class="dropdown">
+                                    <button class="icon-outer dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-user"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                      <li><a class="dropdown-item" href="register.html">Register</a></li>
+                                      <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                                    </ul>
+                                </div>
+                                <a href="#" id="searchToggler" class="icon-outer"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Start main-nav-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">our products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">our blog</a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <button class="butn primary_border_butn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Language
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">العربيه</a></li>
+                          <li><a class="dropdown-item" href="#">English</a></li>
+                          <li><a class="dropdown-item" href="#">Français</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Start search-wrapper -->
+        <div class="search-wrapper">
+            <div class="search-inner">
+                <div class="container">
+                    <div class="in-flex mb-3">
+                        <h6 class="title text-white">WHAT ARE YOU LOOKING FOR?</h6>
+                        <button class="close-butn" id="dismissSearch"><i class="fas fa-times"></i></button>
+                    </div>
+                    <form>
+                        <div class="form-group form-floating mb-0">
+                            <input type="email" class="form-control" id="floatingInput" placeholder=" ">
+                            <label for="floatingInput">Search </label>
+                            <button class="submit-butn"><i class="fa-solid fa-magnifying-glass icon"></i></button>
+                          </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </div>
+    
+    <main>
+        <!-- Start about-sec -->
+        <section class="about-sec section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="img-box wow fadeInDown">
+                            <img src="images/header-2.jpg" alt="" class="sec-img zi-5"/>
+                            <a data-fancybox="" href="https://www.youtube.com/watch?v=OuixXW-7PFc" class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-box wow fadeInUp">
+                            <h1 class="title mb-4 "><b>About Itavilla</b></h1>
+                            <p class="p color-gray2">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                            </p>
+                            <p class="p color-gray2">
+                                consetetur sadipscing elitr labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start about-cards -->
+        <section class="about-cards section">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6">
+                        <div class="vision_box wow fadeInUp">
+                            <div class="icon_cont">
+                                <span class="icon">
+                                    <i class="far fa-eye"></i>
+                                </span>
+                            </div>
+                            <div class="info">
+                                <h6 class="title font_oswald">Our Vision</h6>
+                                <div class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum, numquam dolores.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vision_box wow fadeInUp">
+                            <div class="icon_cont">
+                                <span class="icon">
+                                    <i class="far fa-comment-alt"></i>
+                                </span>
+                            </div>
+                            <div class="info">
+                                <h6 class="title font_oswald">Our Message</h6>
+                                <div class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum, numquam dolores.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vision_box wow fadeInUp">
+                            <div class="icon_cont">
+                                <span class="icon">
+                                    <i class="far fa-dot-circle"></i>
+                                </span>
+                            </div>
+                            <div class="info">
+                                <h6 class="title font_oswald">Our Mission</h6>
+                                <div class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum, numquam dolores.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="img-box wow fadeIn">
+                            <img src="images/header-1.jpg" alt="" class="sec-img wow zoomIn zi-5"/>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <img src="images/vector-1.svg" alt="" class="vector1 wow fadeInLeft"/>
+            <img src="images/vector-3.svg" alt="" class="vector2 wow fadeInRight"/>
+            <img src="images/vector-2.svg" alt="" class="vector3 wow zoomIn"/>
+            <img src="images/vector-4.svg" alt="" class="vector4 wow zoomIn"/>
+            <img src="images/vector-5.svg" alt="" class="vector5 wow zoomIn"/>
+            <img src="images/contact-2.png" alt="" class="sm-img wow fadeInLeft"/>
+        </section>
+        <!-- Start features-sec -->
+        <section class="features-sec section">
+            <div class="container">
+                <div class="sec-heading text-center mb-5 pb-2">
+                    <h2 class="sec_title wow fadeInDown"><b class="font_oswald">Features</b></h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="feature_card wow zoomIn">
+                            <img src="images/icons/feature-1.png" alt="" class="icon"/>
+                            <h5 class="title"><b>Secure Payment</b></h5>
+                            <p class="p color-gray2">Everybody is different, which is different why we offer.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="feature_card wow zoomIn">
+                            <img src="images/icons/feature-2.png" alt="" class="icon"/>
+                            <h5 class="title"><b>24/7 Fast Delivery</b></h5>
+                            <p class="p color-gray2">Everybody is different, which is different why we offer.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="feature_card wow zoomIn">
+                            <img src="images/icons/feature-3.png" alt="" class="icon"/>
+                            <h5 class="title"><b>Return & Refund</b></h5>
+                            <p class="p color-gray2">Everybody is different, which is different why we offer.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="feature_card wow zoomIn">
+                            <img src="images/icons/feature-4.png" alt="" class="icon"/>
+                            <h5 class="title"><b>Quality Support</b></h5>
+                            <p class="p color-gray2">Everybody is different, which is different why we offer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </main>
+    <!-- Start footer -->
+    <footer class="footer section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-3 col-md-6">
+                    <div class="content wow fadeInUp">
+                        <img src="images/logo.png" alt="" class="logo mb-4"/>
+                        <p class="det color-gray">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="content wow fadeInUp">
+                        <h5 class="title text-white mb-5"><b class="font_oswald">Links</b></h5>
+                        <div class="links">
+                            <a href="legal.html">Legal notice</a>
+                            <a href="cookies.html">Cookies policy</a>
+                        </div>
+
+                        <ul class="images">
+                            <li>
+                                <img src="images/pay/master.png" alt="">
+                            </li>
+
+                            <li>
+                                <img src="images/pay/visa.png" alt="">
+                            </li>
+
+                            <li>
+                                <img src="images/pay/cash.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="content wow fadeInUp">
+                        <h5 class="title text-white mb-5"><b class="font_oswald">important link</b></h5>
+                        <div class="links">
+                            <a href="terms.html">Terms & Conditions</a>
+                            <a href="terms.html">Return Policy</a>
+                            <a href="policy.html">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="content wow fadeInUp">
+                        <h5 class="title text-white mb-5"><b class="font_oswald">Subscribe to the newsletter</b></h5>
+                        <p class="det color-gray">Subscribe to receive all new and our offers</p>
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Email "/>
+                                <button class="butn primary_border_butn ">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p class="foot_p color-gray mt-4 text-center mb-0"> Copyright © Itavilla. All rights reserved.</p>
+        </div>
+    </footer>
+    <!--Scroll to top button-->
+    <div class="progress-wrap ">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 220.587;"></path></svg>
+    </div>
+    <!--Js Files & Libraries-->
+    <script src="js/lib/jquery4.js"></script>
+    <script src="js/lib/popper.js"></script>
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+    <script src="js/lib/jquery.fancybox.js"></script>
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/wow.min.js"></script>
+    <script src="js/lib/back-to-top.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

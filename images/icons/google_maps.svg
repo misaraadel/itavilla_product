@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.801" height="39.799" viewBox="0 0 36.801 39.799">
+  <g id="_2x" data-name="@2x" transform="translate(6.364 49.865)">
+    <g id="Maps" transform="translate(-6 -65.5)">
+      <rect id="bg" width="32.63" height="32.63" rx="16.315" transform="translate(1.631 17.81)" fill="#e6e0dc"/>
+      <g id="icon" transform="translate(0)">
+        <g id="Group_63286" data-name="Group 63286">
+          <path id="green" d="M39,57V72.5L64.832,90.446V57Z" transform="translate(-28.395 -41.365)" fill="#9ce177" fill-rule="evenodd"/>
+          <path id="pink" d="M1,102l9.789,6.254v19.578H1Z" transform="translate(-0.728 -74.129)" fill="#ffcdd8" fill-rule="evenodd"/>
+          <g id="yellow" transform="translate(0 20.53)">
+            <path id="Path_20364" data-name="Path 20364" d="M0,75,35.077,99.686V109.2L0,84.517Z" transform="translate(0 -75)" fill="#ffd731"/>
+            <path id="Path_20365" data-name="Path 20365" d="M.5,75.963v9.184l34.805,24.5v-9.184Z" transform="translate(-0.364 -75.701)" fill="none" stroke="#f5ae27" stroke-width="1" fill-rule="evenodd"/>
+          </g>
+          <g id="road" transform="translate(5.982 17.81)">
+            <path id="Path_20366" data-name="Path 20366" d="M22,65h7.342V97.63H22Z" transform="translate(-22 -65)"/>
+            <path id="Path_20367" data-name="Path 20367" d="M22,65h7.342V97.63H22Z" transform="translate(-22 -65)" fill="#fffeff"/>
+          </g>
+          <path id="Rectangle" d="M28,65h3.807V81.315H28Z" transform="translate(-20.386 -47.19)" fill="#2d91e7" fill-rule="evenodd"/>
+          <g id="nav" transform="translate(4.079 31.406)">
+            <g id="Oval-2">
+              <circle id="Ellipse_33" data-name="Ellipse 33" cx="5.71" cy="5.71" r="5.71"/>
+              <circle id="Ellipse_34" data-name="Ellipse 34" cx="5.71" cy="5.71" r="5.71" fill="#0078db"/>
+            </g>
+            <path id="Combined-Shape" d="M14.447,10.894,12,13.342,14.447,6Zm0,0V6l2.447,7.342Z" transform="translate(-8.737 -4.369)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"/>
+          </g>
+          <g id="sign" transform="translate(19.714 38.21)">
+            <path id="Rectangle-5" d="M1,12H12.692a9.459,9.459,0,0,1-.68,3.263,12.639,12.639,0,0,1-2.175,2.855H4.263A15.012,15.012,0,0,1,1.68,15.263,9.282,9.282,0,0,1,1,12Z" transform="translate(-0.592 -8.743)" fill="#0075dd" fill-rule="evenodd"/>
+            <path id="Path-3" d="M1,4.447l.952-2.311,2.175.408L6.846,2,9.7,2.544,11.877,2l.816,2.447Z" transform="translate(-0.592 -1.462)" fill="red" fill-rule="evenodd"/>
+            <g id="Combined-Shape-2" data-name="Combined-Shape" transform="translate(0 0)">
+              <path id="Path_20368" data-name="Path 20368" d="M11.078.861a5.871,5.871,0,0,1,1.158,3.5,6.053,6.053,0,0,1-6.118,5.985A6.053,6.053,0,0,1,0,4.366,5.87,5.87,0,0,1,1.158.861a4.042,4.042,0,0,0,2.377.712A3.907,3.907,0,0,0,6.118.694,3.907,3.907,0,0,0,8.7,1.573,4.043,4.043,0,0,0,11.078.861Z" transform="translate(0.136 -0.511)" fill="rgba(232,23,24,0)"/>
+              <path id="Path_20369" data-name="Path 20369" d="M10.823.291a6.006,6.006,0,0,1,1.185,3.585A6.188,6.188,0,0,1,5.754,10,6.188,6.188,0,0,1-.5,3.877,6,6,0,0,1,.685.292L.765.183l.109.08a3.915,3.915,0,0,0,2.3.685A3.776,3.776,0,0,0,5.663.1L5.754.022,5.845.1A3.778,3.778,0,0,0,8.337.948a3.914,3.914,0,0,0,2.3-.685l.109-.08.081.109Z" transform="translate(0.5 -0.022)" fill="none" stroke="#0073e0" stroke-width="1" fill-rule="evenodd"/>
+              <path id="Path_20370" data-name="Path 20370" d="M11.737,2.18a4.439,4.439,0,0,1-2.308.61,4.293,4.293,0,0,1-2.583-.8,4.293,4.293,0,0,1-2.583.8,4.439,4.439,0,0,1-2.308-.61A5.592,5.592,0,0,0,1,5.311a5.781,5.781,0,0,0,5.846,5.713,5.781,5.781,0,0,0,5.846-5.713,5.593,5.593,0,0,0-.955-3.131Z" transform="translate(-0.592 -1.456)" fill="none" stroke="#fff" stroke-width="2" fill-rule="evenodd"/>
+            </g>
+            <path id="Rectangle-2" d="M1,11H12.692v.544H1Z" transform="translate(-0.592 -8.015)" fill="#fff" fill-rule="evenodd"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

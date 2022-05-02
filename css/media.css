@@ -1,0 +1,195 @@
+/*================================ Satrt large screens =========================*/
+@media (min-width:1201px ) and (max-width: 1440px)
+{
+   
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+
+}
+/*============================== Start medium screen of tablet =========================*/
+@media (min-width: 993px) and (max-width: 1024px)
+{
+
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+
+}
+@media(max-width:992px)
+{
+    .order_md_3{
+        order: 3;
+    }
+    .navs-container .top-nav .nav-links .icon-outer {
+        width: 25px;
+        height: 25px;
+        font-size: 8px;
+    }
+    .navs-container .top-nav .logo {
+        margin: 15px 0 0 0;
+    }
+    .navs-container .navbar {
+        padding: 0;
+    }
+    .navs-container .navbar .navbar-toggler {
+        position: absolute;
+        right: 30px;
+        top: -70px;
+    }
+
+    .navs-container .top-nav,
+    .navs-container .navbar {
+        z-index: unset !important;
+    }
+
+    .navbar-brand {
+        margin: unset !important;
+    }
+    .navbar-toggler {
+        display: block !important;  
+    }
+    .navs-container .navbar .butn{
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+    .navs-container .navbar .has-dropdown .drop-down ,
+    .navs-container .navbar .has-dropdown .drop-down .has-sub-dropdown .subdropdown{ 
+        position: relative;
+        min-width: 100%;
+        max-height: 0;
+        transform: translateY(5px);
+        right: 0;
+    }
+    .navs-container .navbar .has-dropdown:hover .drop-down ,
+    .navs-container .navbar .has-dropdown .drop-down .has-sub-dropdown:hover .subdropdown{
+        transform: translateY(0px);
+        max-height: fit-content;
+
+    }
+
+    .oder-mobile-0 {
+        order: 0 !important;
+    }
+
+    .oder-mobile-1 {
+        order: 1 !important;
+    }
+
+    form .butns,  .order-heading .in-flex {
+        flex-direction: column !important;
+    }
+
+    .steps-box {
+        overflow: hidden;
+    } 
+
+    .steps-box .step_num  {
+        background-color: #fff !important;
+    }
+
+    .checkout-pg .summary-box {
+        margin-top: 25px !important;
+    }
+
+    .register-pg .regist_inner .form-box .code_input .code-container input {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    
+    .order-det .order-heading .order-group .data b {
+        font-size: 12px !important;
+    }
+
+    .order-det .order-heading .order-group .data {
+        margin-bottom: 20px !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        align-content: flex-start !important;
+    }
+
+    .order-det .map-butn {
+        margin-top: 15px !important;
+    }
+
+    .table td, .table th {
+        min-width: 140px !important;
+    }
+
+    .product-det .sm-slide-swiper .sm-bg-header {
+        height: 120px !important;
+    }
+
+    .product-det .lg-slide-swiper .img-box {
+        height: 300px !important;
+    }
+
+    .product-det .form-group {
+        margin-bottom: 10px !important;
+    }
+
+    .product-det .text-box .bt {
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+    }
+
+    .product-det .dark_butn  {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .profile-pg .tab.loc-tab .loc_card .heading,
+    .profile-pg .tab.loc-tab .loc_card .card-body {
+        flex-direction: column !important;
+    }
+
+    .profile-pg .tab.loc-tab .loc_card .card-body .icon-outer {
+        margin: 0px 0px 20px 0px !important;
+    }
+
+    .profile-pg .orders-tab .nav {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        overflow-x: scroll;
+    }
+
+    .profile-pg .tab.orders-tab .nav .nav-link {
+        min-width: 150px !important;
+    }
+
+    .modal-content h3 {
+        font-size: 18px !important;
+    }
+}
+/*============================== Start small screen of mobile =========================*/
+@media(max-width:768px)
+{
+    .about-sec .img-box {
+        height: 300px;
+        margin-bottom: 45px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+
+}
+@media(max-width:576px)
+{
+    
+}
+@media(min-width: 426px) and (max-width: 576px)
+{
+
+}
+@media (min-width: 376px) and (max-width: 425px)
+{
+
+}
+@media (min-width: 321px) and (max-width: 375px)
+{
+   
+}
+@media (max-width: 320px)
+{
+
+}
