@@ -1,5 +1,55 @@
 @import 'global';
 
+html[dir="rtl"] {
+    .header .item .header-img {
+        right: unset !important;
+        left: 0px;
+    }
+
+    .header .swiper-pagination {
+        right: unset !important;
+        left: 10% !important;
+    }
+
+    .swiper-container .swiper-button-prev::before,  .swiper-container .swiper-button-next::before{
+        transform: rotate(180deg);
+    }
+
+    .products-sec .prod_card .img-box .icons-hvr {
+        right: unset;
+        left: 5px;
+    }
+
+    .footer .content .form-group .butn {
+        right: unset;
+        left: 7px;
+    }
+
+    .navs-container .search-wrapper .search-inner .form-group .submit-butn {
+        right: unset !important;
+        left: 25px;
+    }
+
+    form .show_pass {
+        right: unset !important;
+        left: 15px;
+    }
+
+    .progress-wrap {
+        left: 20px;
+        right: unset;
+    }
+
+    .checkout-pg .steps-box .step_num.first::after {
+        right: unset !important;
+        left: -290px;
+    }
+}
+
+textarea {
+    resize: none;
+}
+
 /**********************************************
    Start Edit Navbar & Footer
 **********************************************/
@@ -385,9 +435,11 @@
         display: flex;
         align-items: center;
         align-content: center;
+        flex-wrap: wrap;
 
         li {
             margin-inline-end: 10px;
+            margin-top: 10px;
 
             &:last-child {
                 margin: 0px !important;
