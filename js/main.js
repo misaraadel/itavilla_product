@@ -154,7 +154,6 @@ var swiper = new Swiper('.header-swiper', {
     },
 });
 var swiper = new Swiper('.categories-sec .categ-swiper', {
-    loop: true,
     speed: 900,
     spaceBetween: 15,
     autoplay: {
@@ -179,8 +178,8 @@ var swiper = new Swiper('.categories-sec .categ-swiper', {
         },
     }
 });
+
 var swiper = new Swiper('.filter-categ-swiper', {
-    loop: true,
     speed: 900,
     spaceBetween: 15,
     autoplay: {
